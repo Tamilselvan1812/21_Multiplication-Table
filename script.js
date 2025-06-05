@@ -13,7 +13,7 @@ function generateTable() {
                  while (i <= 10) {                                           // initial value 1, condition <=10,increment or decrement +1
                     result += `${n} * ${i} = ${i * n}\n`;                    //   n+" * "+ i + " = "+ (i*n)      2 * 1 = 2
                      i++;                                                    // i = i+1 => i++  , i = i+2 => i += 2
-                }
+                }                                                            // \n = new line
             }
              document.getElementById('result').innerText = result;              
         }
